@@ -1,0 +1,29 @@
+.model {
+    position: fixed;
+    z-index: 999;
+    top:0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0,0,0,0.05);
+    justify-content: flex-end;
+    align-items: center;
+    display: none;
+}
+
+.is-open{
+    display: flex;
+}
+
+.close-model {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    height: 40px;
+    width: 40px;
+    padding: 0.5em;
+    border: none;
+    border-radius:30% ;
+    background-color: #fff;
+    
+}
